@@ -1,3 +1,10 @@
+require 'date'
+require 'terminal-table'
+# Welcome message
+system "clear"
+puts "Welcome to the Program Schedular.\nThis app will allow the user to set name and title for multpile speakers in multiple sessions.\nThere are 2 sessions, each with four(4) time slots.\n\n"
+puts
+
 print ("Select an option from 1-3 (3 to quit)")
 option = gets().strip
 case option
@@ -28,4 +35,8 @@ else
   puts("Error. Invalid option.")
 end
 
-option
+
+
+
+
+
