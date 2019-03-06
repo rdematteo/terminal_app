@@ -9,6 +9,13 @@ Plan is approved by Simon
 
 Ensure the repository (repo) is accessible by your Educators
 
+Images using github
+![github_pic1](./docs/Picture3.png)
+![github_pic2](./docs/Picture3.png)
+![github_pic3](./docs/Picture5.png)
+![github_pic4](./docs/Picture6.png)
+![github_pic5](./docs/Picture7.png)
+
 ## Description of the app, including,
 Purpose, Functionality, Instructions for use, Screenshots
 This Program schedular app "scheduler.rb' will allow the user to set name and title for multiple speakers in multiple sessions. The app only includes 2 sessions, each with four(4) time slots.
@@ -22,8 +29,8 @@ If you choose 2, then you can display the entire program with all entered speake
 Evidence of app idea brainstorming sessions, app User/Workflow diagram
 App idea brainstorming and user/workflow was evidenced in Trello (screenshots included)
 
-![trello pic](./docs/picture2.png)
-![trello1 pic](./docs/picture1.png)
+![trello pic](./docs/Picture2.png)
+![trello1 pic](./docs/Picture1.png)
 
 Brandon to work on
 
@@ -52,7 +59,7 @@ Used this code instead: table = Terminal::Table.new :title => "Cheatsheet", :hea
 
 need to use the JSON gem
 
-decided on saving hashes into a txt file as JSOAN can save and read hashes
+decided on saving hashes into a txt file as JSON can save and read hashes
 
 Issues.
 
