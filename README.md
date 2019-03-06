@@ -43,8 +43,7 @@ Solution:
 
 Used this code instead: table = Terminal::Table.new :title => "Cheatsheet", :headings => ['Word', 'Number'], :rows => rows
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![terminal table pic](./docs/image1.png)
 
 3. File system
 
