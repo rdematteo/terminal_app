@@ -58,14 +58,14 @@ end
 def options_1
   puts ("Now it's time to input your Speech Detail")
   puts ("Please enter your session number")
-  puts ("1 ===================================>> Session 1")
-  puts ("2 ===================================>> Session 2")
+  puts ("1---------goes--to------------Session 1")
+  puts ("2---------------------Session 2")
   session_no = gets().strip.to_i
   puts ("Please enter your speaker number")
-  puts ("1 ===================================>> Speaker 1")
-  puts ("2 ===================================>> Speaker 2")
-  puts ("3 ===================================>> Speaker 3")
-  puts ("4 ===================================>> Speaker 4")
+  puts ("1---------------------Speaker 1")
+  puts ("2---------------------Speaker 2")
+  puts ("3---------------------Speaker 3")
+  puts ("4---------------------Speaker 4")
   speaker_no = gets().strip.to_i
   puts ("Now please enter your name")
   name = gets().strip
@@ -170,12 +170,12 @@ def file_save(session1, session2)
   end
 end
 
-#Welcome message
+# Welcome message
 system "clear"
 puts "Welcome to the Program Schedular.\nThis app will allow the user to set name and title for multpile speakers in multiple sessions.\nThere are 2 sessions, each with four(4) time slots.\n\n"
 puts
 loop do
-  puts ("<============================= App Start =============================>")
+  puts ("==========================App Start Now===================================")
   puts ("Select an option from 1-3 ")
   puts ("1 -----------------------Session Input")
   puts ("2------------------------Program Output")
@@ -192,10 +192,9 @@ loop do
   when "3"
     puts ("You chose otpion 3")
     puts ("Now you chose to quit")
-    puts("<=========================== Exited =============================>")
+    puts("=====================Exited==========================")
     exit
   else
     puts("Error. Invalid option.")
   end
 end
-
