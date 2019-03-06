@@ -26,14 +26,14 @@ end
 def options_1
   puts ("Now it's time to input your Speech Detail")
   puts ("Please enter your session number")
-  puts ("1---------goes--to------------Session 1")
+  puts ("1---------------------Session 1")
   puts ("2---------------------Session 2")
   session_no = gets().strip.to_i
-  puts ("Please enter your speaker number")
-  puts ("1---------------------Speaker 1")
-  puts ("2---------------------Speaker 2")
-  puts ("3---------------------Speaker 3")
-  puts ("4---------------------Speaker 4")
+  puts ("Please enter your Speaker Number")
+  puts ("1 ======================> Speaker 1")
+  puts ("1 ======================> Speaker 2")
+  puts ("1 ======================> Speaker 3")
+  puts ("1 ======================> Speaker 4")
   speaker_no = gets().strip.to_i
   puts ("Now please enter your name")
   name = gets().strip
@@ -115,8 +115,8 @@ def session_settings(session_detail)
     else
         return mother_array
     end
-end 
-end 
+end
+end
 
 # Welcome message
 system "clear"
