@@ -153,22 +153,3 @@ session_1 = mother_array[0]
 session_2 = mother_array[1]
 puts session_1
 puts session_2
-
-# # def file_save
-# # # writing hash to individual filess. This will create two separate files. One for eah hash. Each hash has information for each session
-# File.open("session1file.txt", "w+") do |file|
-#   file.write session1.to_json #hash for session 1 is called session1
-# end
-# # File.open("session2file.txt", "w+") do |file|
-# #   file.write session2.to_json #hash for session 2 is called session2
-# # end
-
-# # def file_retrieve
-# # # Bring the hash back into Ruby
-# session1file = JSON.parse(File.read("session1file.txt"))
-# # session2file = JSON.parse(File.read("session2file.txt"))
-# # example of finding values
-# name = session1file["speaker_one"]["name"]
-# p name
-
-# # end
