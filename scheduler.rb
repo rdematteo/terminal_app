@@ -1,4 +1,4 @@
-require 'date'
+require 'json'
 require 'terminal-table'
 
 # Welcome message
@@ -40,6 +40,8 @@ end
 
 
 #Table output
+# requires 'terminal-table' gem
+# i need to add hash location for names and titles. Waiting for Brandon to create hash
 def output_table
 rows = []
 rows << ['One', '10:00', 'A', 'A']
@@ -62,3 +64,25 @@ puts table2
 end
 
 output_table
+session1 = {:speaker_one => {:name => 'dave', :title => 'title'}, :speaker_two => {:name => 'name', :title => 'title'}, :speaker_three => {:name => 'name', :title => 'title'}, :speaker_four => {:name => 'name', :title => 'title'}}
+
+# def file_save
+# # writing hash to individual filess. This will create two separate files. One for eah hash. Each hash has information for each session
+File.open("session1file.txt", "w+") do |file|
+  file.write session1.to_json #hash for session 1 is called session1
+end
+# File.open("session2file.txt", "w+") do |file|
+#   file.write session2.to_json #hash for session 2 is called session2
+# end
+
+# def file_retrieve
+# # Bring the hash back into Ruby
+session1file = JSON.parse(File.read("session1file.txt"))
+# session2file = JSON.parse(File.read("session2file.txt"))
+# example of finding values
+name = session1file["speaker_one"]["name"]
+p name
+
+# end
+
+
